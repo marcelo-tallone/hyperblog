@@ -1,0 +1,6 @@
+Los comandos de GIT vistos son:
+
+git init                                (Se utiliza para crear el repositorio local, lo que sería el Master).
+git status                              (Se utiliza para ver el status de los archivos con el repo)
+git add <nombre archivo>                (Te agrega solo el archivo seleccionado para poder commitearlo)
+git add .                               (Te agrega todos los archivos desde esa carpeta para poder commitearlos)
