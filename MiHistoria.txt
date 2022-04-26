@@ -1,0 +1,3 @@
+Este es un archivo de prueba en el que pongo algo de info mía.
+
+Soy Marcelo Tallone, tengo 38 años y estoy aprendiendo a usar bien GIT y varias otras cosas mas, como Linux, usar un broker local, microservicios, etc.
