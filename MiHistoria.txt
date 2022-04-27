@@ -5,3 +5,5 @@ Soy Marcelo Tallone, tengo 38 años y estoy aprendiendo a usar bien GIT y varias
 En este momento estoy con las pruebas par aaprender GIT.
 
 Ahora pruebo hacer un commit 1 para ver como se vuelve en el tiempo con git
+
+Ahora hago el cambio para el commit 2 y volver en el tiempo
