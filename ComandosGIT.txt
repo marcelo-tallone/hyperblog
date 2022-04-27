@@ -51,3 +51,17 @@ git log <nombre archivo>                            (Te muestra el historial de 
 git log                                             (Te muestra el historial de los commits de todos los archivos de esa carpeta)
 cat <nombre archivo>                                (Te muestra el contenido del archivo)
 
+
+
+
+
+
+
+El comando git show nos muestra los cambios que han existido sobre un archivo y es muy útil para detectar cuándo se produjeron ciertos cambios, qué se rompió y cómo lo podemos solucionar. Pero podemos ser más detallados.
+
+Si queremos ver la diferencia entre una versión y otra, no necesariamente todos los cambios desde la creación del archivo, podemos usar el comando git diff commitA commitB.
+
+Recuerda que puedes obtener el ID de tus commits con el comando git log.
+
+
+prueba para show
