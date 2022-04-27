@@ -54,16 +54,3 @@ cat <nombre archivo>                                (Te muestra el contenido del
 git show <nombre archivo>                           (Te muestra exactamente los cambios que tuvo el archivo)
 git diff commitA commitB                            (Te muestra exactamente los cambios entre dos commits diferentes, los obtienes con el git log)
 
-
-
-
-
-
-El comando git show nos muestra los cambios que han existido sobre un archivo y es muy útil para detectar cuándo se produjeron ciertos cambios, qué se rompió y cómo lo podemos solucionar. Pero podemos ser más detallados.
-
-Si queremos ver la diferencia entre una versión y otra, no necesariamente todos los cambios desde la creación del archivo, podemos usar el comando git diff commitA commitB.
-
-Recuerda que puedes obtener el ID de tus commits con el comando git log.
-
-
-prueba para show
