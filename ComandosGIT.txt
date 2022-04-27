@@ -51,6 +51,8 @@ git log <nombre archivo>                            (Te muestra el historial de 
 git log                                             (Te muestra el historial de los commits de todos los archivos de esa carpeta)
 cat <nombre archivo>                                (Te muestra el contenido del archivo)
 
+git show <nombre archivo>                           (Te muestra exactamente los cambios que tuvo el archivo)
+git diff commitA commitB                            (Te muestra exactamente los cambios entre dos commits diferentes, los obtienes con el git log)
 
 
 
