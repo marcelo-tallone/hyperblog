@@ -7,3 +7,5 @@ En este momento estoy con las pruebas par aaprender GIT.
 Ahora pruebo hacer un commit 1 para ver como se vuelve en el tiempo con git
 
 Ahora hago el cambio para el commit 2 y volver en el tiempo
+
+Y ahora hago el commit numero 3 para ver bien bien como cambio todo
