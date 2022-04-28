@@ -49,8 +49,24 @@ git rm -f <nombre de archivo>                       (Quita lo que puso el git ad
 
 git log <nombre archivo>                            (Te muestra el historial de los commits de un archivo)
 git log                                             (Te muestra el historial de los commits de todos los archivos de esa carpeta)
+git log --stat                                      (Muestra el historia de los commita de todos los archivos con detalle del cambio)
 cat <nombre archivo>                                (Te muestra el contenido del archivo)
 
 git show <nombre archivo>                           (Te muestra exactamente los cambios que tuvo el archivo)
 git diff commitA commitB                            (Te muestra exactamente los cambios entre dos commits diferentes, los obtienes con el git log)
+git diff                                            (Muestra los cambios entre el staging y lo que no se subio en disco)
+
+git reset <#commit> --hard                          (vuelve a la version del commit indicada borrando todo el historial y todo)
+git reset <#commit> --soft                          (vuelve a la version del commit indicada borrando todo el historial y todo excepto el staging)
+
+git checkout <#commit> <Nombre Archivo>             (volves en tu local a la version de commit que pongas sin borrar nada del historial)
+git checkout master <Nombre Archivo>                (volves en tu local a la utima version que habias subido al master)
+
+
+
+
+
+
+
+
 
