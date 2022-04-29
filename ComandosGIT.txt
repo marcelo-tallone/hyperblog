@@ -99,6 +99,16 @@ Otra opción es crear un nuevo commit en la rama cabecera combinando los cambios
 git checkout cabecera
 git merge cualquier-otra-rama
 --------------------------------------------------------------------------------------------------------------------
+Github:
+
+Mail:
+marcelo.tallone@gmail.com
+Pass:
+A94......
+User:
+marcelo-tallone
+--------------------------------------------------------------------------------------------------------------------
+
 
 
 
