@@ -148,6 +148,18 @@ ssh-add ruta-donde-guardaste-tu-llave-privada
 En este caso:
 ssh-add ~/.ssh/id_rsa
 
+6- Ahora ir a github, en la parte de clone, seleccionar ssh y guardar el codigo.
+7- en consola escribir este comando:
+git remote set-url origin url-ssh-del-repositorio-en-github
+que en mi caso por ejemplo es:
+$ git remote set-url origin git@github.com:marcelo-tallone/hyperblog.git
+8- gacer un git pull y seleccionar "yes"
+
+LISTO.
+--------------------------------------------------------------------------------------------------------------------
+
+
+
 
 
 
