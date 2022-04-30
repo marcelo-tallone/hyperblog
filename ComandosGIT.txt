@@ -133,6 +133,21 @@ git pull origin master --allow-unrelated-histories
 Por último, ahora sí podemos hacer git push para guardar los cambios de nuestro repositorio local en GitHub:
 git push origin master
 --------------------------------------------------------------------------------------------------------------------
+Para generacion de llaves:
+
+1- Asegurarse que el user y el mail de mi repositorio local sea igual al de gitub (utilizando el comando git confitg -l)
+2- Si no son iguales, con los comandos de git config modificar el git local para que coincidan.
+3- Para generar las llaves ejecutar:
+ssh-keygen -t rsa -b 4096 -C "marcelo.tallone@gmail.com"
+luego enter para dejar las llaves en la ruta que propone
+luego poner clave con espacios o apretar enter u no poner ninguna Pass. Luego de nuevo para confirmar.
+4- Luego se debe encener el “servidor” de llaves SSH de tu computadora con el comando:
+eval $(ssh-agent -s)
+5- Añadir tu llave SSH a este “servidor” con el comando:
+ssh-add ruta-donde-guardaste-tu-llave-privada
+En este caso:
+ssh-add ~/.ssh/id_rsa
+
 
 
 
