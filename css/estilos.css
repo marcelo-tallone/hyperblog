@@ -50,3 +50,13 @@ body
     background: white;
     padding: 1em;
 }
+
+#footer
+{
+    background: rgb(222, 92, 21);
+    width: 100%;
+    padding: 0;
+    text-align: left;
+    border: 1px solid #DDD;
+    margin: 0 auto;
+}
