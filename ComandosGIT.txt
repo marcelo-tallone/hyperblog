@@ -217,6 +217,20 @@ El programador sube su trabajo con git push origin #nombre_rama
 El encargado de organizar el proyecto baja, revisa y unifica todos los cambios
 --------------------------------------------------------------------------------------------------------------------
 
+Cómo se hace un fork remoto desde consola en GitHub
+Al hacer un fork, GitHub sabe que se hizo el fork del proyecto, por lo que se le permite al colaborador hacer pull request desde su repositorio propio.
 
+Cuando trabajas en un proyecto que existe en diferentes repositorios remotos (normalmente a causa de un fork), es muy probable que desees poder trabajar con ambos repositorios. Para esto, puedes generar un remoto adicional desde consola.
 
+git remote add <nombre_del_remoto> <url_del_remoto> 
+git remote upstream https://github.com/freddier/hyperblog
+Al crear un remoto adicional, podremos hacer pull desde el nuevo origen. En caso de tener permisos, podremos hacer fetch y push.
 
+git pull <remoto> <rama>
+git pull upstream master
+Este pull nos traerá los cambios del remoto, por lo que se estará al día en el proyecto. El flujo de trabajo cambia, en adelante se estará trabajando haciendo pull desde el upstream y push al origin para pasar a hacer pull request.
+
+git pull upstream master
+git push origin master
+
+--------------------------------------------------------------------------------------------------------------------
